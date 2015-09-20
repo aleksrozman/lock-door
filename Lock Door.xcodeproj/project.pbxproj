@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		281CEEF09869FCC9AF389DF7 /* libPods-Lock Door.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9CD6BCCFBAAA4EBB6F0F41 /* libPods-Lock Door.a */; };
+		372416391BAEFE3800DD7911 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 372416381BAEFE3800DD7911 /* Settings.bundle */; settings = {ASSET_TAGS = (); }; };
+		3724163B1BAF21BC00DD7911 /* StatusController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3724163A1BAF21BC00DD7911 /* StatusController.swift */; settings = {ASSET_TAGS = (); }; };
+		373F1D941BAE0210004C799D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F1D931BAE0210004C799D /* AppDelegate.swift */; };
+		373F1D961BAE0210004C799D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F1D951BAE0210004C799D /* ViewController.swift */; };
+		373F1D991BAE0210004C799D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373F1D971BAE0210004C799D /* Main.storyboard */; };
+		373F1D9B1BAE0210004C799D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 373F1D9A1BAE0210004C799D /* Assets.xcassets */; };
+		373F1D9E1BAE0210004C799D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373F1D9C1BAE0210004C799D /* LaunchScreen.storyboard */; };
+		37CFB1B71BAE44F9008659AF /* Photon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CFB1B61BAE44F9008659AF /* Photon.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A9CD6BCCFBAAA4EBB6F0F41 /* libPods-Lock Door.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lock Door.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		372416381BAEFE3800DD7911 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		3724163A1BAF21BC00DD7911 /* StatusController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StatusController.swift; path = ../StatusController.swift; sourceTree = "<group>"; };
+		373F1D901BAE0210004C799D /* Lock Door.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lock Door.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		373F1D931BAE0210004C799D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		373F1D951BAE0210004C799D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		373F1D981BAE0210004C799D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		373F1D9A1BAE0210004C799D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		373F1D9D1BAE0210004C799D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		373F1D9F1BAE0210004C799D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37C1B2281BAE47BD000C8E96 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		37CFB1B61BAE44F9008659AF /* Photon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photon.swift; sourceTree = "<group>"; };
+		99EBAE5C6E398F2FBCC1BEA5 /* Pods-Lock Door.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lock Door.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lock Door/Pods-Lock Door.debug.xcconfig"; sourceTree = "<group>"; };
+		9D3BFB3925CAF8575BAE4CD1 /* Pods-Lock Door.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lock Door.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lock Door/Pods-Lock Door.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		373F1D8D1BAE0210004C799D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281CEEF09869FCC9AF389DF7 /* libPods-Lock Door.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		238DEBEA03AD946091EDF510 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99EBAE5C6E398F2FBCC1BEA5 /* Pods-Lock Door.debug.xcconfig */,
+				9D3BFB3925CAF8575BAE4CD1 /* Pods-Lock Door.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		373F1D871BAE0210004C799D = {
+			isa = PBXGroup;
+			children = (
+				372416381BAEFE3800DD7911 /* Settings.bundle */,
+				373F1D921BAE0210004C799D /* Lock Door */,
+				373F1D911BAE0210004C799D /* Products */,
+				238DEBEA03AD946091EDF510 /* Pods */,
+				ECC9C9FBB5180CEC4823019A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		373F1D911BAE0210004C799D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				373F1D901BAE0210004C799D /* Lock Door.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		373F1D921BAE0210004C799D /* Lock Door */ = {
+			isa = PBXGroup;
+			children = (
+				3724163A1BAF21BC00DD7911 /* StatusController.swift */,
+				373F1D931BAE0210004C799D /* AppDelegate.swift */,
+				373F1D951BAE0210004C799D /* ViewController.swift */,
+				373F1D971BAE0210004C799D /* Main.storyboard */,
+				373F1D9A1BAE0210004C799D /* Assets.xcassets */,
+				373F1D9C1BAE0210004C799D /* LaunchScreen.storyboard */,
+				373F1D9F1BAE0210004C799D /* Info.plist */,
+				37CFB1B61BAE44F9008659AF /* Photon.swift */,
+				37C1B2281BAE47BD000C8E96 /* Bridging-Header.h */,
+			);
+			path = "Lock Door";
+			sourceTree = "<group>";
+		};
+		ECC9C9FBB5180CEC4823019A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A9CD6BCCFBAAA4EBB6F0F41 /* libPods-Lock Door.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		373F1D8F1BAE0210004C799D /* Lock Door */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 373F1DA21BAE0210004C799D /* Build configuration list for PBXNativeTarget "Lock Door" */;
+			buildPhases = (
+				47F67BF7D6D9717DF59E2737 /* Check Pods Manifest.lock */,
+				373F1D8C1BAE0210004C799D /* Sources */,
+				373F1D8D1BAE0210004C799D /* Frameworks */,
+				373F1D8E1BAE0210004C799D /* Resources */,
+				EF671EFD79F9D1069854E0B5 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lock Door";
+			productName = "Lock Door";
+			productReference = 373F1D901BAE0210004C799D /* Lock Door.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		373F1D881BAE0210004C799D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Aleks Rozman";
+				TargetAttributes = {
+					373F1D8F1BAE0210004C799D = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = CK36XRBXU4;
+					};
+				};
+			};
+			buildConfigurationList = 373F1D8B1BAE0210004C799D /* Build configuration list for PBXProject "Lock Door" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 373F1D871BAE0210004C799D;
+			productRefGroup = 373F1D911BAE0210004C799D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				373F1D8F1BAE0210004C799D /* Lock Door */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		373F1D8E1BAE0210004C799D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372416391BAEFE3800DD7911 /* Settings.bundle in Resources */,
+				373F1D9E1BAE0210004C799D /* LaunchScreen.storyboard in Resources */,
+				373F1D9B1BAE0210004C799D /* Assets.xcassets in Resources */,
+				373F1D991BAE0210004C799D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47F67BF7D6D9717DF59E2737 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF671EFD79F9D1069854E0B5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lock Door/Pods-Lock Door-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		373F1D8C1BAE0210004C799D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37CFB1B71BAE44F9008659AF /* Photon.swift in Sources */,
+				3724163B1BAF21BC00DD7911 /* StatusController.swift in Sources */,
+				373F1D961BAE0210004C799D /* ViewController.swift in Sources */,
+				373F1D941BAE0210004C799D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		373F1D971BAE0210004C799D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				373F1D981BAE0210004C799D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+			wrapsLines = 0;
+		};
+		373F1D9C1BAE0210004C799D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				373F1D9D1BAE0210004C799D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		373F1DA01BAE0210004C799D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		373F1DA11BAE0210004C799D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		373F1DA31BAE0210004C799D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99EBAE5C6E398F2FBCC1BEA5 /* Pods-Lock Door.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Lock Door/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lock-Door";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lock Door/Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
+			};
+			name = Debug;
+		};
+		373F1DA41BAE0210004C799D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D3BFB3925CAF8575BAE4CD1 /* Pods-Lock Door.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Lock Door/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lock-Door";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lock Door/Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		373F1D8B1BAE0210004C799D /* Build configuration list for PBXProject "Lock Door" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373F1DA01BAE0210004C799D /* Debug */,
+				373F1DA11BAE0210004C799D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		373F1DA21BAE0210004C799D /* Build configuration list for PBXNativeTarget "Lock Door" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373F1DA31BAE0210004C799D /* Debug */,
+				373F1DA41BAE0210004C799D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 373F1D881BAE0210004C799D /* Project object */;
+}
